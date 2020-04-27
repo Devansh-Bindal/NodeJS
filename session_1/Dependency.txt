@@ -1,0 +1,7 @@
+
+Q.3 Install dependencies and dev dependencies.
+-->npm install moment --save(dependency).
+-->npm install chai --save-dev(dev dependency).
+-->npm install mocha --save-dev(dev dependency).
+Update package.json.
+

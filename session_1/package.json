@@ -1,0 +1,26 @@
+{
+  "name": "session1",
+  "version": "1.0.0",
+  "description": "Nodejs Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devansh-Bindal/NodeJS.git"
+  },
+  "author": "Devansh-Bindal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devansh-Bindal/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Devansh-Bindal/NodeJS#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
