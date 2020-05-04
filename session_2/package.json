@@ -1,0 +1,19 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devansh-Bindal/NodeJS.git"
+  },
+  "author": "Devansh-Bindal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5"
+  }
+}

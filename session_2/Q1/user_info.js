@@ -1,0 +1,46 @@
+const user_info=
+[
+    {
+        Username:'dev_01',
+        Password:'Abcdef',
+        FirstName:'Devansh',
+        LastName:'Bindal'
+    },
+    {
+        Username:'vip_02',
+        Password:'aBcdef',
+        FirstName:'Vipul',
+        LastName:'Chikara'
+    },
+    {
+        Username:'sak_03',
+        Password:'abCdef',
+        FirstName:'Saket',
+        LastName:'Kumar'
+    },
+    {
+        Username:'sid_04',
+        Password:'abcDef',
+        FirstName:'Siddhant',
+        LastName:'Sharma'
+    },
+    {
+        Username:'jay_05',
+        Password:'abcdEf',
+        FirstName:'Jay',
+        LastName:'Patel'
+    },
+    {
+        Username:'ton_06',
+        Password:'abcdeF',
+        FirstName:'Tony',
+        LastName:'Kakkar'
+    },
+]
+search=(username)=>{
+    return user_info.filter(user=>user.Username === username);
+}
+module.exports={
+    search
+}
+
